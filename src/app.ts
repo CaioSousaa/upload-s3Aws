@@ -1,20 +1,9 @@
-import { fastify } from "fastify";
-import mongoose from "mongoose";
+import express from "express";
+import { routes } from "./routes/upload.routes";
 
-const app = fastify({ logger: true });
+const app = express();
 
-const processEnv = Number(process.env.PORT);
+app.use(express.json());
+app.use(routes);
 
-mongoose.connect(
-  "mongodb+srv://mongo:12345@cluster0.lquvu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-);
-
-const start = async () => {
-  try {
-    app.listen({ port: processEnv || 3333 }, () => console.log("🔥🔥🔥"));
-  } catch (err) {
-    process.exit(1);
-  }
-};
-
-start();
+app.listen(3333, () => console.log("server is run"));
