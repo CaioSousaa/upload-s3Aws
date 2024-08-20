@@ -8,9 +8,10 @@ datasource db {
 }
 
 model Upload {
-  id         String @id @default(uuid()) @map("_id") @db.ObjectId
+  id         String @id @default(auto()) @map("_id") @db.ObjectId
   size       Int
-  key        Int
+  name       String
+  key        String
   url        String
   created_at DateTime @default(now())
 
