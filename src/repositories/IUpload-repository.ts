@@ -1,4 +1,4 @@
-import { Upload } from "../entitie/Upload";
+import { Upload } from "../modules/upload/entitie/Upload";
 
 export interface IUploadRepositoy {
   create(upload: Upload): Promise<Upload>;

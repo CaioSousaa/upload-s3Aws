@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { CreateUploadService } from "../service/create-upload";
-import { AppError } from "../error/AppError";
+import { AppError } from "../../../error/AppError";
 
 export class CreateUploadController {
   constructor(private createUploadService: CreateUploadService) {}

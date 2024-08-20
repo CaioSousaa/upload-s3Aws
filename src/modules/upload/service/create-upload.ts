@@ -1,6 +1,5 @@
-import { AppError } from "../error/AppError";
-import { IUploadRepositoy } from "../repositories/IUpload-repository";
-import { v4 as uuid } from "uuid";
+import { AppError } from "../../../error/AppError";
+import { IUploadRepositoy } from "../../../repositories/IUpload-repository";
 
 interface IRequest {
   name: string;

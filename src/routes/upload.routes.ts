@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createFactoryUpload } from "../factory/create-upload-factory";
+import { createFactoryUpload } from "../modules/upload/factory/create-upload-factory";
 import { upload } from "../config/multer";
 
 const routes = Router();
