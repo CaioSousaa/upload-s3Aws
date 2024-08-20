@@ -7,13 +7,18 @@
     "dev": "nodemon src/app.ts"
   },
   "dependencies": {
+    "aws-sdk": "^2.1678.0",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "multer-s3": "^3.0.1",
     "nodemon": "^3.1.4"
   },
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.635.0",
     "@prisma/client": "^5.18.0",
     "@types/express": "^4.17.21",
     "@types/multer": "^1.4.11",
+    "@types/multer-s3": "^3.0.3",
     "@types/node": "^22.4.1",
     "@types/uuid": "^10.0.0",
     "multer": "^1.4.5-lts.1",
