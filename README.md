@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://hermes.dio.me/articles/cover/228e1981-2776-497b-8eec-984a427bc68c.png" width="200" alt="Brain-ag logo" /></a>
+  <a href="https://aws.amazon.com/pt/" target="blank"><img src="https://hermes.dio.me/articles/cover/228e1981-2776-497b-8eec-984a427bc68c.png" width="200" alt="Brain-ag logo" /></a>
 </p>
 
 ---
